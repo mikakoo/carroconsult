@@ -1,0 +1,61 @@
+
+.simple-gallery img {
+    /* vertical spacing for gallery grid */
+    margin: 5%;
+    padding: 0;
+}
+
+
+.simple-gallery a.img-zoom-hover { display: inline-block; position: relative; vertical-align: bottom; overflow: hidden; }
+.simple-gallery a.img-zoom-hover > img { transition: all 0.5s ease; transform-style: preserve-3d; }
+.simple-gallery a.img-zoom-hover:hover > img {
+    transform: scale(1.1); 
+    -ms-transform: scale(1.1); /* IE 9 */ 
+    -moz-transform: scale(1.1); /* Firefox */ 
+    -webkit-transform: scale(1.1); /* Safari and Chrome */ 
+    -o-transform: scale(1.1); /* Opera */
+}
+
+
+
+.map_container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 75%;
+}
+
+.map_container .map_canvas{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #f7de44;
+}
+
+footer {
+    margin-top: 1.5em;
+    font-size: 0.9em;
+}
+
+
+
+
+#layerslider {
+    height: 600px;
+}
+
+
+ul.nobullets {
+ list-style: none;   
+}
+
+
+/* ======================== Address, Phone, Email blocks ======================== */
+.linkedin-block, .dcci-block { position: relative; padding-left: 40px; padding-bottom: 0px; font-size: 16px; line-height: 1.85; }
+.linkedin-block:before, .dcci-block:before { content: ''; position: absolute; left: 0; top: 3px; font: 18px/20px 'ElegantIcons'; color: #444649; }
+
+.linkedin-block:before { content: "\e0cb"; }
+.dcci-block:before { content: "\e02c"; }
